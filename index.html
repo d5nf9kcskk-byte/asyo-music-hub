@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://apis.google.com 'sha256-rlBqsaXAQUihxEXZ812/N3dFWYLfWe4JMqi3okdYPu0=' 'sha256-NUtJAyJEz2wTibsY+d5Uzx1fkOGh1fWRez3Is0MpYiw='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.googleusercontent.com; connect-src 'self' https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebasestorage.googleapis.com https://www.googleapis.com https://corsproxy.io https://asyo-hub-demo.firebaseapp.com; frame-src https://asyo-hub-demo.firebaseapp.com; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content" />
+    <title>ASYO Music Hub</title>
+
+    <!-- PWA / iOS home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="ASYO" />
+    <meta name="theme-color" content="#1d3a6b" />
+
+    <link rel="preconnect" href="https://firestore.googleapis.com" crossorigin />
+    <link rel="manifest" href="/asyo-music-hub/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/asyo-music-hub/favicon.svg" />
+    <link rel="apple-touch-icon" href="/asyo-music-hub/apple-touch-icon.png" />
+    <script type="module" crossorigin src="/asyo-music-hub/assets/index-CkzchmLv.js"></script>
+    <link rel="stylesheet" crossorigin href="/asyo-music-hub/assets/index-SjVDiPUo.css">
+  </head>
+  <body>
+    <!-- Dark-view choice (#dark-view): resolve Auto/Light/Dark before first
+         paint so a stored choice never flashes the wrong scheme. Kept current
+         after load by src/public/theme.ts. -->
+    <script>
+      (function () {
+        var choice = null;
+        try { choice = localStorage.getItem('pub.theme'); } catch (e) { /* private mode */ }
+        var dark = choice === 'dark' ||
+          (choice !== 'light' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.setAttribute('data-pub-theme', dark ? 'dark' : 'light');
+      })();
+    </script>
+    <div id="root"></div>
+    <!-- GitHub Pages SPA fix: restore the URL saved by 404.html on refresh/direct link -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.getItem('spa_redirect');
+        if (redirect) {
+          sessionStorage.removeItem('spa_redirect');
+          if (redirect !== location.href) {
+            history.replaceState(null, null, redirect);
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>
