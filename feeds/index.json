@@ -1,0 +1,227 @@
+{
+  "generated": "2026-08-18T21:42:40.730Z",
+  "feeds": [
+    {
+      "name": "All Events",
+      "file": "all.ics"
+    },
+    {
+      "name": "Schedule Changes Only",
+      "file": "changes.ics"
+    },
+    {
+      "name": "Chamber Ensembles",
+      "ensembleId": "chamber-ensembles",
+      "file": "ensemble-chamber-ensembles.ics"
+    },
+    {
+      "name": "Youth Philharmonia",
+      "ensembleId": "philharmonia",
+      "file": "ensemble-philharmonia.ics"
+    },
+    {
+      "name": "Prelude Strings",
+      "ensembleId": "prelude-strings",
+      "file": "ensemble-prelude-strings.ics"
+    },
+    {
+      "name": "Youth Symphony",
+      "ensembleId": "youth-symphony",
+      "file": "ensemble-youth-symphony.ics"
+    }
+  ],
+  "viewFeeds": [
+    {
+      "slug": "ff90f4cd",
+      "file": "view-ff90f4cd.ics"
+    },
+    {
+      "slug": "1748fac7",
+      "file": "view-1748fac7.ics"
+    },
+    {
+      "slug": "5a107e04",
+      "file": "view-5a107e04.ics"
+    },
+    {
+      "slug": "f8660e79",
+      "file": "view-f8660e79.ics"
+    },
+    {
+      "slug": "1a4c8999",
+      "file": "view-1a4c8999.ics"
+    },
+    {
+      "slug": "51c0ed07",
+      "file": "view-51c0ed07.ics"
+    },
+    {
+      "slug": "5bb96738",
+      "file": "view-5bb96738.ics"
+    },
+    {
+      "slug": "1e67bbf2",
+      "file": "view-1e67bbf2.ics"
+    },
+    {
+      "slug": "bf216608",
+      "file": "view-bf216608.ics"
+    },
+    {
+      "slug": "14301380",
+      "file": "view-14301380.ics"
+    },
+    {
+      "slug": "0b94edc3",
+      "file": "view-0b94edc3.ics"
+    },
+    {
+      "slug": "103f0a62",
+      "file": "view-103f0a62.ics"
+    },
+    {
+      "slug": "920f6a5e",
+      "file": "view-920f6a5e.ics"
+    },
+    {
+      "slug": "ceaac850",
+      "file": "view-ceaac850.ics"
+    },
+    {
+      "slug": "c4128741",
+      "file": "view-c4128741.ics"
+    },
+    {
+      "slug": "2197d509",
+      "file": "view-2197d509.ics"
+    },
+    {
+      "slug": "9512b1f4",
+      "file": "view-9512b1f4.ics"
+    },
+    {
+      "slug": "56fe5e3c",
+      "file": "view-56fe5e3c.ics"
+    },
+    {
+      "slug": "7cb9c15f",
+      "file": "view-7cb9c15f.ics"
+    },
+    {
+      "slug": "4e11252e",
+      "file": "view-4e11252e.ics"
+    },
+    {
+      "slug": "db7e0b12",
+      "file": "view-db7e0b12.ics"
+    },
+    {
+      "slug": "9f13c8ac",
+      "file": "view-9f13c8ac.ics"
+    },
+    {
+      "slug": "74b7ff9d",
+      "file": "view-74b7ff9d.ics"
+    },
+    {
+      "slug": "390171e5",
+      "file": "view-390171e5.ics"
+    },
+    {
+      "slug": "c2bc5aa9",
+      "file": "view-c2bc5aa9.ics"
+    },
+    {
+      "slug": "4564a693",
+      "file": "view-4564a693.ics"
+    },
+    {
+      "slug": "d87e4e70",
+      "file": "view-d87e4e70.ics"
+    },
+    {
+      "slug": "d03487c5",
+      "file": "view-d03487c5.ics"
+    },
+    {
+      "slug": "5147182d",
+      "file": "view-5147182d.ics"
+    },
+    {
+      "slug": "697e46e3",
+      "file": "view-697e46e3.ics"
+    },
+    {
+      "slug": "8ff6bc74",
+      "file": "view-8ff6bc74.ics"
+    },
+    {
+      "slug": "828406ce",
+      "file": "view-828406ce.ics"
+    },
+    {
+      "slug": "fb91b023",
+      "file": "view-fb91b023.ics"
+    },
+    {
+      "slug": "1b9b7355",
+      "file": "view-1b9b7355.ics"
+    },
+    {
+      "slug": "1bcb0b12",
+      "file": "view-1bcb0b12.ics"
+    },
+    {
+      "slug": "9762911b",
+      "file": "view-9762911b.ics"
+    },
+    {
+      "slug": "9460e867",
+      "file": "view-9460e867.ics"
+    },
+    {
+      "slug": "81a56b71",
+      "file": "view-81a56b71.ics"
+    },
+    {
+      "slug": "27b7973a",
+      "file": "view-27b7973a.ics"
+    },
+    {
+      "slug": "43adc9d0",
+      "file": "view-43adc9d0.ics"
+    },
+    {
+      "slug": "17a12c84",
+      "file": "view-17a12c84.ics"
+    },
+    {
+      "slug": "6c4d312c",
+      "file": "view-6c4d312c.ics"
+    },
+    {
+      "slug": "43e29f6f",
+      "file": "view-43e29f6f.ics"
+    },
+    {
+      "slug": "9aeea0de",
+      "file": "view-9aeea0de.ics"
+    },
+    {
+      "slug": "906dd0c2",
+      "file": "view-906dd0c2.ics"
+    },
+    {
+      "slug": "85a3ba5c",
+      "file": "view-85a3ba5c.ics"
+    },
+    {
+      "slug": "20971a8d",
+      "file": "view-20971a8d.ics"
+    },
+    {
+      "slug": "495b4035",
+      "file": "view-495b4035.ics"
+    }
+  ]
+}

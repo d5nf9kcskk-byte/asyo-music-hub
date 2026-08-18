@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASYO Music Hub//asyo//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ASYO · Concerts
+X-WR-CALDESC:Concert events only
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:asyo-fall-concert@asyo.hub
+SUMMARY:Fall Concert
+DTSTART:20260905T190000
+DTEND:20260905T210000
+STATUS:CONFIRMED
+LOCATION:Alpharetta Performing Arts Center (demo)
+DESCRIPTION:Youth Symphony\, Youth Philharmonia\, Prelude Strings\nRepertoi
+ re: Simple Gifts (arr. strings) — Traditional Shaker melody · Hungarian Da
+ nce No. 5 — Johannes Brahms · Symphony No. 8 — Finale — Antonín Dvořák · T
+ he Barber of Seville — Overture — Gioachino Rossini\nAll three orchestras.
+  Rossini is the side-by-side finale — Philharmonia sits in with the Youth 
+ Symphony.
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-winter-concert@asyo.hub
+SUMMARY:Winter Concert
+DTSTART:20261020T190000
+DTEND:20261020T210000
+STATUS:CONFIRMED
+LOCATION:Alpharetta Performing Arts Center (demo)
+DESCRIPTION:Youth Symphony\, Youth Philharmonia\nRepertoire: Peer Gynt Suit
+ e No. 1 — Edvard Grieg · Hungarian Dance No. 5 — Johannes Brahms
+END:VEVENT
+END:VCALENDAR

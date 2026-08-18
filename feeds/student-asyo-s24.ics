@@ -1,0 +1,193 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASYO Music Hub//asyo//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Calloway\, Grace — ASYO
+X-WR-CALDESC:Personal schedule for Calloway\, Grace
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:asyo-fall-concert@asyo.hub
+SUMMARY:Fall Concert
+DTSTART:20260905T190000
+DTEND:20260905T210000
+STATUS:CONFIRMED
+LOCATION:Alpharetta Performing Arts Center (demo)
+DESCRIPTION:Youth Symphony\, Youth Philharmonia\, Prelude Strings\nRepertoi
+ re: Simple Gifts (arr. strings) — Traditional Shaker melody · Hungarian Da
+ nce No. 5 — Johannes Brahms · Symphony No. 8 — Finale — Antonín Dvořák · T
+ he Barber of Seville — Overture — Gioachino Rossini\nAll three orchestras.
+  Rossini is the side-by-side finale — Philharmonia sits in with the Youth 
+ Symphony.
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-08-02@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20260802T120000
+DTEND:20260802T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-08-09@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20260809T120000
+DTEND:20260809T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-08-16@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20260816T120000
+DTEND:20260816T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-08-23@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20260823T120000
+DTEND:20260823T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-08-30@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20260830T120000
+DTEND:20260830T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-09-06@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20260906T120000
+DTEND:20260906T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-09-13@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20260913T120000
+DTEND:20260913T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-09-20@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20260920T120000
+DTEND:20260920T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-09-27@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20260927T120000
+DTEND:20260927T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-10-04@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20261004T120000
+DTEND:20261004T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-10-11@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20261011T120000
+DTEND:20261011T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-10-18@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20261018T120000
+DTEND:20261018T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-10-25@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20261025T120000
+DTEND:20261025T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-11-01@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20261101T120000
+DTEND:20261101T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-11-08@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20261108T120000
+DTEND:20261108T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-11-15@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20261115T120000
+DTEND:20261115T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+BEGIN:VEVENT
+UID:asyo-prelude-sun-2026-11-22@asyo.hub
+SUMMARY:Prelude Strings
+DTSTART:20261122T120000
+DTEND:20261122T130000
+STATUS:CONFIRMED
+LOCATION:Rehearsal Room C
+DESCRIPTION:Prelude Strings\nRepertoire: Simple Gifts (arr. strings) — Trad
+ itional Shaker melody
+END:VEVENT
+END:VCALENDAR

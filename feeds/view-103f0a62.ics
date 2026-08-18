@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASYO Music Hub//asyo//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ASYO · School events · Sectionals
+X-WR-CALDESC:School events · Sectionals
+X-WR-TIMEZONE:America/New_York
+
+END:VCALENDAR

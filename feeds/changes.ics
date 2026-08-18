@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASYO Music Hub//asyo//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ASYO · Schedule changes
+X-WR-CALDESC:Cancellations and schedule changes only
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:asyo-phil-cancelled@asyo.hub
+SUMMARY:[CANCELLED] Youth Philharmonia
+DTSTART:20260830T130000
+DTEND:20260830T144500
+STATUS:CANCELLED
+LOCATION:Rehearsal Room B
+DESCRIPTION:Youth Philharmonia\n⚠ Changed: Cancelled — venue in use for a f
+ acility event. See you the following week.
+END:VEVENT
+END:VCALENDAR
