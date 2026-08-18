@@ -8,37 +8,37 @@
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],
   "background_color": "#f6f7f9",
-  "theme_color": "#1d3a6b",
+  "theme_color": "#503593",
   "orientation": "any",
   "lang": "en",
   "categories": ["education", "music", "productivity"],
   "icons": [
     {
-      "src": "/asyo-music-hub/icon-192.png",
+      "src": "/asyo-music-hub/asyo-icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/asyo-music-hub/icon-512.png",
+      "src": "/asyo-music-hub/asyo-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/asyo-music-hub/icon-maskable-192.png",
+      "src": "/asyo-music-hub/asyo-icon-maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/asyo-music-hub/icon-maskable-512.png",
+      "src": "/asyo-music-hub/asyo-icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/asyo-music-hub/icon.svg",
+      "src": "/asyo-music-hub/asyo-icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
@@ -64,22 +64,22 @@
     {
       "name": "Take Roll",
       "url": "/asyo-music-hub/director/roll",
-      "icons": [{ "src": "/asyo-music-hub/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+      "icons": [{ "src": "/asyo-music-hub/asyo-icon-192.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "Today (Director)",
       "url": "/asyo-music-hub/director",
-      "icons": [{ "src": "/asyo-music-hub/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+      "icons": [{ "src": "/asyo-music-hub/asyo-icon-192.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "Calendar",
       "url": "/asyo-music-hub/calendar",
-      "icons": [{ "src": "/asyo-music-hub/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+      "icons": [{ "src": "/asyo-music-hub/asyo-icon-192.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
       "name": "Find My Schedule",
       "url": "/asyo-music-hub/lookup",
-      "icons": [{ "src": "/asyo-music-hub/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+      "icons": [{ "src": "/asyo-music-hub/asyo-icon-192.png", "sizes": "192x192", "type": "image/png" }]
     }
   ]
 }
