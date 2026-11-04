@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://apis.google.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ 'sha256-IDHBrquGWnTLffZmp2tYYo2TUpbaaac3z3Mb4VYz+Fg=' 'sha256-NUtJAyJEz2wTibsY+d5Uzx1fkOGh1fWRez3Is0MpYiw='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://*.googleusercontent.com https://firebasestorage.googleapis.com; media-src 'self' blob: https://firebasestorage.googleapis.com; connect-src 'self' https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebasestorage.googleapis.com https://www.googleapis.com https://corsproxy.io https://us-central1-asyo-hub-demo.cloudfunctions.net https://asyo-hub-demo.firebaseapp.com https://content-firebaseappcheck.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com; frame-src https://asyo-hub-demo.firebaseapp.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://apis.google.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ 'sha256-km2mU8mbYAWGUtriSuROnT21Tgw++IWngxBXQf/Y5T8=' 'sha256-NUtJAyJEz2wTibsY+d5Uzx1fkOGh1fWRez3Is0MpYiw='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://*.googleusercontent.com https://firebasestorage.googleapis.com; media-src 'self' blob: https://firebasestorage.googleapis.com; connect-src 'self' https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firebasestorage.googleapis.com https://www.googleapis.com https://corsproxy.io https://us-central1-asyo-hub-demo.cloudfunctions.net https://asyo-hub-demo.firebaseapp.com https://content-firebaseappcheck.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com https://fcm.googleapis.com; frame-src https://asyo-hub-demo.firebaseapp.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/; object-src 'none'; base-uri 'self'; form-action 'self'" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content" />
     <title>ASYO Music Hub</title>
 
@@ -16,15 +16,15 @@
     <link rel="manifest" href="/asyo-music-hub/manifest.json" />
     <link rel="icon" type="image/png" href="/asyo-music-hub/asyo-favicon.png" />
     <link rel="apple-touch-icon" href="/asyo-music-hub/asyo-apple-touch-icon.png" />
-    <script type="module" crossorigin src="/asyo-music-hub/assets/index-CmtKY3TM.js"></script>
+    <script type="module" crossorigin src="/asyo-music-hub/assets/index-CkF36OdX.js"></script>
     <link rel="modulepreload" crossorigin href="/asyo-music-hub/assets/rolldown-runtime-QTnfLwEv.js">
-    <link rel="modulepreload" crossorigin href="/asyo-music-hub/assets/i18n-DbEgEQmF.js">
+    <link rel="modulepreload" crossorigin href="/asyo-music-hub/assets/i18n-onSUDu6x.js">
     <link rel="modulepreload" crossorigin href="/asyo-music-hub/assets/preload-helper-BW9039Vc.js">
     <link rel="modulepreload" crossorigin href="/asyo-music-hub/assets/index.esm-wgILVzD6.js">
     <link rel="modulepreload" crossorigin href="/asyo-music-hub/assets/firebase-YsaCAJqY.js">
     <link rel="modulepreload" crossorigin href="/asyo-music-hub/assets/index.esm-4JMAPsnl.js">
     <link rel="modulepreload" crossorigin href="/asyo-music-hub/assets/index.esm-D7mXGjF2.js">
-    <link rel="stylesheet" crossorigin href="/asyo-music-hub/assets/index-CDo6gyBM.css">
+    <link rel="stylesheet" crossorigin href="/asyo-music-hub/assets/index-D2pQIHKH.css">
   </head>
   <!-- spellcheck: Firefox's default checks multi-line boxes only, so every
        single-line Title field went unchecked there. The attribute inherits,
@@ -41,9 +41,12 @@
         var dark = choice === 'dark' ||
           (choice !== 'light' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
         document.documentElement.setAttribute('data-pub-theme', dark ? 'dark' : 'light');
-        // Hub 2.0 preview (#hub2-look): the owner's on-device switch, same key
-        // as src/shared/hub2Preview.ts. Never read from the URL.
-        try { if (localStorage.getItem('hub2.preview') === 'on') document.documentElement.setAttribute('data-hub2', 'on'); } catch (e) { /* private mode */ }
+        // Hub 2.0 look (#hub2-look): on for everyone once the org config says
+        // so (hub2.forEveryone, written in at build time); until then the
+        // owner's on-device preview, same key as src/shared/hub2Preview.ts.
+        // Never read from the URL.
+        var hub2Everyone = false;
+        try { if (hub2Everyone || localStorage.getItem('hub2.preview') === 'on') document.documentElement.setAttribute('data-hub2', 'on'); } catch (e) { if (hub2Everyone) document.documentElement.setAttribute('data-hub2', 'on'); }
       })();
     </script>
     <div id="root"></div>
